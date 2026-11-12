@@ -218,6 +218,3 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
-
-# Too large files
-model/model.pkl
