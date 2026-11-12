@@ -7,7 +7,12 @@ authors = [
     { name = "Tristiii", email = "tristiii.games@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "joblib>=1.6.0",
+    "numpy>=2.5.4",
+    "pandas>=3.1.1",
+    "scikit-learn>=1.9.1",
+]
 
 [project.scripts]
 house-price-predictor = "house_price_predictor:main"
